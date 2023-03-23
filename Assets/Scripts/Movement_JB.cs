@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Movement_JB : MonoBehaviour
 {
-    public float speed = 5.0f; // Speed of player movement
+    public float speed = 5.0f; // Speed of player movementprivate Vector3 previousPosition;
 
     void Update()
     {
